@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Backend Virtual Environment
+backend/venv/
+
+# Environment Variables
+.env
+.venv
+.env.local
+.env.*.local
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data & Databases
+data/
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.npz
+
+# Vector Database (ChromaDB)
+backend/db/chroma_data/
+chroma_data/
+
+# Models
+*.gguf
+*.bin
+*.pth
+*.pt
+models/
+
+# Logs
+*.log
+batch_scan_*.log
+
+# Viewer (React + Vite)
+viewer/node_modules/
+viewer/dist/
+viewer/build/
+viewer/.vite/
+viewer/.turbo/
+viewer/.next/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store/
+
+# Build artifacts
+dist-ssr
+*.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE specific
+*.sublime-project
+*.sublime-workspace

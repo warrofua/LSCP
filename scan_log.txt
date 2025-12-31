@@ -1,0 +1,893 @@
+Failed to send telemetry event client_start: capture() takes 1 positional argument but 3 were given
+Using embedded DuckDB with persistence: data will be stored in: /Users/joshuafarrow/Projects/LSCP/data/vectors
+No embedding_function provided, using default embedding function: SentenceTransformerEmbeddingFunction
+No embedding_function provided, using default embedding function: SentenceTransformerEmbeddingFunction
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+============================================================
+LATENT SPACE CARTOGRAPHY PROTOCOL
+Initializing System...
+============================================================
+
+1. Initializing databases...
+
+2. Loading models...
+Loading Control Model (Human): sentence-transformers/all-MiniLM-L6-v2
+Control Model loaded successfully
+Loading Explorer Model (Latent): /Users/joshuafarrow/Downloads/Qwen2.5-14B-Instruct-Q4_K_M.gguf
+Explorer Model loaded successfully
+
+3. Initializing scanner...
+
+✓ System initialization complete!
+
+============================================================
+BATCH SCAN: 100 concepts
+============================================================
+
+============================================================
+SCANNING: TIME
+============================================================
+1. Generating embeddings...
+Error scanning time: IDs ['time'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: SPACE
+============================================================
+1. Generating embeddings...
+2. Finding nearest neighbors...
+Embedding vocabulary:   0%|          | 0/100 [00:00<?, ?it/s]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:   3%|▎         | 3/100 [00:39<21:08, 13.08s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:   4%|▍         | 4/100 [01:32<41:35, 26.00s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:   5%|▌         | 5/100 [02:20<52:16, 33.01s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:   6%|▌         | 6/100 [03:04<56:49, 36.27s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:   7%|▋         | 7/100 [03:50<1:01:07, 39.44s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:   8%|▊         | 8/100 [04:34<1:02:36, 40.83s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:   9%|▉         | 9/100 [05:16<1:02:20, 41.10s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  10%|█         | 10/100 [06:02<1:03:57, 42.64s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  11%|█         | 11/100 [06:44<1:03:02, 42.51s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  12%|█▏        | 12/100 [07:29<1:03:24, 43.23s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  13%|█▎        | 13/100 [08:18<1:05:01, 44.85s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  14%|█▍        | 14/100 [09:09<1:07:06, 46.82s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  15%|█▌        | 15/100 [09:48<1:03:04, 44.53s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  16%|█▌        | 16/100 [10:33<1:02:16, 44.49s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  17%|█▋        | 17/100 [11:22<1:03:22, 45.81s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  18%|█▊        | 18/100 [12:12<1:04:15, 47.02s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  19%|█▉        | 19/100 [12:51<1:00:24, 44.74s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  20%|██        | 20/100 [13:19<52:59, 39.75s/it]  Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  21%|██        | 21/100 [13:56<51:13, 38.91s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  22%|██▏       | 22/100 [14:27<47:26, 36.50s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  23%|██▎       | 23/100 [15:13<50:26, 39.30s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  24%|██▍       | 24/100 [15:38<44:37, 35.23s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  25%|██▌       | 25/100 [16:34<51:42, 41.36s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  26%|██▌       | 26/100 [17:30<56:27, 45.78s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  27%|██▋       | 27/100 [17:48<45:38, 37.52s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  28%|██▊       | 28/100 [18:16<41:18, 34.42s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  29%|██▉       | 29/100 [18:41<37:21, 31.57s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  30%|███       | 30/100 [19:06<34:50, 29.86s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  31%|███       | 31/100 [19:40<35:34, 30.93s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  32%|███▏      | 32/100 [20:21<38:30, 33.98s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  33%|███▎      | 33/100 [21:07<42:04, 37.68s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  34%|███▍      | 34/100 [21:50<43:15, 39.32s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  35%|███▌      | 35/100 [22:43<46:51, 43.26s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  36%|███▌      | 36/100 [23:28<46:45, 43.83s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  37%|███▋      | 37/100 [23:59<42:02, 40.04s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  38%|███▊      | 38/100 [24:38<41:04, 39.75s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  39%|███▉      | 39/100 [24:53<32:52, 32.33s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  40%|████      | 40/100 [25:15<29:05, 29.09s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  41%|████      | 41/100 [25:48<29:43, 30.23s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  42%|████▏     | 42/100 [26:04<25:09, 26.02s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  43%|████▎     | 43/100 [26:24<23:04, 24.28s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  44%|████▍     | 44/100 [27:03<26:40, 28.59s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  45%|████▌     | 45/100 [27:41<28:58, 31.60s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  46%|████▌     | 46/100 [28:15<28:50, 32.04s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  47%|████▋     | 47/100 [28:51<29:34, 33.49s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  48%|████▊     | 48/100 [29:27<29:41, 34.27s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  49%|████▉     | 49/100 [29:59<28:30, 33.54s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  50%|█████     | 50/100 [30:34<28:16, 33.94s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  51%|█████     | 51/100 [31:26<32:05, 39.30s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  52%|█████▏    | 52/100 [32:12<32:59, 41.24s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  53%|█████▎    | 53/100 [33:01<34:08, 43.59s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  54%|█████▍    | 54/100 [33:47<34:04, 44.44s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  55%|█████▌    | 55/100 [34:35<34:10, 45.57s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  56%|█████▌    | 56/100 [35:13<31:42, 43.24s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  57%|█████▋    | 57/100 [36:00<31:41, 44.22s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  58%|█████▊    | 58/100 [36:46<31:23, 44.85s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  59%|█████▉    | 59/100 [37:29<30:17, 44.32s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  60%|██████    | 60/100 [38:15<29:56, 44.92s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  61%|██████    | 61/100 [39:09<30:49, 47.43s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  62%|██████▏   | 62/100 [39:50<28:48, 45.50s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  63%|██████▎   | 63/100 [40:16<24:34, 39.85s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  64%|██████▍   | 64/100 [40:45<21:55, 36.53s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  65%|██████▌   | 65/100 [41:10<19:20, 33.15s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  66%|██████▌   | 66/100 [41:27<16:01, 28.27s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  67%|██████▋   | 67/100 [41:45<13:44, 24.98s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  68%|██████▊   | 68/100 [42:05<12:32, 23.51s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  69%|██████▉   | 69/100 [42:42<14:16, 27.64s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  70%|███████   | 70/100 [43:33<17:18, 34.62s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  71%|███████   | 71/100 [44:24<19:06, 39.54s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  72%|███████▏  | 72/100 [45:07<18:53, 40.48s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  73%|███████▎  | 73/100 [45:53<19:02, 42.31s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  74%|███████▍  | 74/100 [46:37<18:30, 42.72s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  75%|███████▌  | 75/100 [47:08<16:24, 39.36s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  76%|███████▌  | 76/100 [47:54<16:30, 41.27s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  77%|███████▋  | 77/100 [48:45<16:55, 44.16s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  78%|███████▊  | 78/100 [49:15<14:38, 39.93s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  79%|███████▉  | 79/100 [50:01<14:34, 41.64s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  80%|████████  | 80/100 [50:53<14:54, 44.75s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  81%|████████  | 81/100 [51:35<13:58, 44.11s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  82%|████████▏ | 82/100 [52:13<12:41, 42.30s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  83%|████████▎ | 83/100 [52:49<11:22, 40.14s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  84%|████████▍ | 84/100 [53:25<10:24, 39.01s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  85%|████████▌ | 85/100 [54:15<10:35, 42.34s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  86%|████████▌ | 86/100 [54:47<09:08, 39.20s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  87%|████████▋ | 87/100 [55:27<08:33, 39.53s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  88%|████████▊ | 88/100 [55:59<07:24, 37.07s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  89%|████████▉ | 89/100 [56:25<06:12, 33.89s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  90%|█████████ | 90/100 [56:48<05:04, 30.49s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  91%|█████████ | 91/100 [57:05<04:00, 26.68s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  92%|█████████▏| 92/100 [57:20<03:04, 23.07s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  93%|█████████▎| 93/100 [57:51<02:58, 25.51s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  94%|█████████▍| 94/100 [58:35<03:06, 31.01s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  95%|█████████▌| 95/100 [59:27<03:07, 37.42s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  96%|█████████▌| 96/100 [1:00:11<02:37, 39.39s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  97%|█████████▋| 97/100 [1:00:57<02:03, 41.27s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary:  99%|█████████▉| 99/100 [1:01:38<00:31, 31.61s/it]Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event collection_add: capture() takes 1 positional argument but 3 were given
+Embedding vocabulary: 100%|██████████| 100/100 [1:02:23<00:00, 35.05s/it]Embedding vocabulary: 100%|██████████| 100/100 [1:02:23<00:00, 37.44s/it]
+init: embeddings required but some input tokens were not marked as outputs -> overriding
+init: embeddings required but some input tokens were not marked as outputs -> overriding
+init: embeddings required but some input tokens were not marked as outputs -> overriding
+init: embeddings required but some input tokens were not marked as outputs -> overriding
+init: embeddings required but some input tokens were not marked as outputs -> overriding
+
+Human Vector (Standard):
+  - matter: 0.472
+  - existence: 0.566
+  - consciousness: 0.570
+  - force: 0.577
+  - life: 0.584
+
+Latent Vector (Hidden):
+  - force: 0.092
+  - matter: 0.101
+  - energy: 0.117
+  - time: 0.118
+  - constant: 0.120
+
+3. Calculating deltas and storing relationships...
+  High delta detected: space <-> force (Δ=0.484)
+  Bridge: Force alters an object's velocity, which in turn changes its position over time, thereby directly influencing the space it occupies.
+  High delta detected: space <-> matter (Δ=0.371)
+  Bridge: Space curvature by matter influences matter's movement, shaping trajectories through gravitational interaction, thereby intertwining space and matter computationally in dynamical systems.
+  High delta detected: space <-> energy (Δ=0.497)
+  Bridge: In quantum mechanics, the uncertainty principle links spatial uncertainty with energy fluctuations, allowing particles to borrow energy from the vacuum for brief moments, bridging space and energy through quantum fluctuations.
+  High delta detected: space <-> time (Δ=0.521)
+  Bridge: In computation, space and time are dual aspects of resource consumption, where space represents memory usage and time represents processing duration, both inversely linked through algorithm efficiency; optimizing one often trades off the other.
+  High delta detected: space <-> constant (Δ=0.639)
+  Bridge: A space complexity of O(1) indicates that an algorithm uses a constant amount of space, independent of the input size, meaning the memory usage remains constant throughout the execution of the algorithm regardless of the problem's scale.
+
+Scan complete: Avg Delta = 0.502
+High delta pairs: 5
+
+============================================================
+SCANNING: REALITY
+============================================================
+1. Generating embeddings...
+Error scanning reality: IDs ['reality'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: TRUTH
+============================================================
+1. Generating embeddings...
+Error scanning truth: IDs ['truth'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: KNOWLEDGE
+============================================================
+1. Generating embeddings...
+Error scanning knowledge: IDs ['knowledge'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: MEMORY
+============================================================
+1. Generating embeddings...
+Error scanning memory: IDs ['memory'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: THOUGHT
+============================================================
+1. Generating embeddings...
+Error scanning thought: IDs ['thought'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: IDEA
+============================================================
+1. Generating embeddings...
+Error scanning idea: IDs ['idea'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: CONCEPT
+============================================================
+1. Generating embeddings...
+Error scanning concept: IDs ['concept'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: MEANING
+============================================================
+1. Generating embeddings...
+Error scanning meaning: IDs ['meaning'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: PURPOSE
+============================================================
+1. Generating embeddings...
+Error scanning purpose: IDs ['purpose'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: VALUE
+============================================================
+1. Generating embeddings...
+Error scanning value: IDs ['value'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: EXISTENCE
+============================================================
+1. Generating embeddings...
+Error scanning existence: IDs ['existence'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: CONSCIOUSNESS
+============================================================
+1. Generating embeddings...
+Error scanning consciousness: IDs ['consciousness'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: LOVE
+============================================================
+1. Generating embeddings...
+Error scanning love: IDs ['love'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: HATE
+============================================================
+1. Generating embeddings...
+Error scanning hate: IDs ['hate'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: FEAR
+============================================================
+1. Generating embeddings...
+Error scanning fear: IDs ['fear'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: JOY
+============================================================
+1. Generating embeddings...
+Error scanning joy: IDs ['joy'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: ANGER
+============================================================
+1. Generating embeddings...
+Error scanning anger: IDs ['anger'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: SADNESS
+============================================================
+1. Generating embeddings...
+Error scanning sadness: IDs ['sadness'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: HOPE
+============================================================
+1. Generating embeddings...
+Error scanning hope: IDs ['hope'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: TRUST
+============================================================
+1. Generating embeddings...
+Error scanning trust: IDs ['trust'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: ANXIETY
+============================================================
+1. Generating embeddings...
+Error scanning anxiety: IDs ['anxiety'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: PEACE
+============================================================
+1. Generating embeddings...
+Error scanning peace: IDs ['peace'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: DESIRE
+============================================================
+1. Generating embeddings...
+Error scanning desire: IDs ['desire'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: CURIOSITY
+============================================================
+1. Generating embeddings...
+Error scanning curiosity: IDs ['curiosity'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: THINK
+============================================================
+1. Generating embeddings...
+Error scanning think: IDs ['think'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: LEARN
+============================================================
+1. Generating embeddings...
+Error scanning learn: IDs ['learn'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: CREATE
+============================================================
+1. Generating embeddings...
+Error scanning create: IDs ['create'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: DESTROY
+============================================================
+1. Generating embeddings...
+Error scanning destroy: IDs ['destroy'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: BUILD
+============================================================
+1. Generating embeddings...
+Error scanning build: IDs ['build'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: GROW
+============================================================
+1. Generating embeddings...
+Error scanning grow: IDs ['grow'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: CHANGE
+============================================================
+1. Generating embeddings...
+Error scanning change: IDs ['change'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: MOVE
+============================================================
+1. Generating embeddings...
+Error scanning move: IDs ['move'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: PREDICT
+============================================================
+1. Generating embeddings...
+Error scanning predict: IDs ['predict'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: UNDERSTAND
+============================================================
+1. Generating embeddings...
+Error scanning understand: IDs ['understand'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: BELIEVE
+============================================================
+1. Generating embeddings...
+Error scanning believe: IDs ['believe'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: KNOW
+============================================================
+1. Generating embeddings...
+Error scanning know: IDs ['know'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: REMEMBER
+============================================================
+1. Generating embeddings...
+Error scanning remember: IDs ['remember'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: FORGET
+============================================================
+1. Generating embeddings...
+Error scanning forget: IDs ['forget'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: GOOD
+============================================================
+1. Generating embeddings...
+Error scanning good: IDs ['good'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: BAD
+============================================================
+1. Generating embeddings...
+Error scanning bad: IDs ['bad'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: RIGHT
+============================================================
+1. Generating embeddings...
+Error scanning right: IDs ['right'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: WRONG
+============================================================
+1. Generating embeddings...
+Error scanning wrong: IDs ['wrong'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: TRUE
+============================================================
+1. Generating embeddings...
+Error scanning true: IDs ['true'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: FALSE
+============================================================
+1. Generating embeddings...
+Error scanning false: IDs ['false'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: REAL
+============================================================
+1. Generating embeddings...
+Error scanning real: IDs ['real'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: FAKE
+============================================================
+1. Generating embeddings...
+Error scanning fake: IDs ['fake'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: STRONG
+============================================================
+1. Generating embeddings...
+Error scanning strong: IDs ['strong'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: WEAK
+============================================================
+1. Generating embeddings...
+Error scanning weak: IDs ['weak'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: FAST
+============================================================
+1. Generating embeddings...
+Error scanning fast: IDs ['fast'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: SLOW
+============================================================
+1. Generating embeddings...
+Error scanning slow: IDs ['slow'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: BIG
+============================================================
+1. Generating embeddings...
+Error scanning big: IDs ['big'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: SMALL
+============================================================
+1. Generating embeddings...
+Error scanning small: IDs ['small'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: ENERGY
+============================================================
+1. Generating embeddings...
+Error scanning energy: IDs ['energy'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: FORCE
+============================================================
+1. Generating embeddings...
+Error scanning force: IDs ['force'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: MATTER
+============================================================
+1. Generating embeddings...
+Error scanning matter: IDs ['matter'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: WAVE
+============================================================
+1. Generating embeddings...
+Error scanning wave: IDs ['wave'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: PARTICLE
+============================================================
+1. Generating embeddings...
+Error scanning particle: IDs ['particle'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: ENTROPY
+============================================================
+1. Generating embeddings...
+Error scanning entropy: IDs ['entropy'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: CHAOS
+============================================================
+1. Generating embeddings...
+Error scanning chaos: IDs ['chaos'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: ORDER
+============================================================
+1. Generating embeddings...
+Error scanning order: IDs ['order'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: PATTERN
+============================================================
+1. Generating embeddings...
+Error scanning pattern: IDs ['pattern'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: SYSTEM
+============================================================
+1. Generating embeddings...
+Error scanning system: IDs ['system'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: FUNCTION
+============================================================
+1. Generating embeddings...
+Error scanning function: IDs ['function'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: VARIABLE
+============================================================
+1. Generating embeddings...
+Error scanning variable: IDs ['variable'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: CONSTANT
+============================================================
+1. Generating embeddings...
+Error scanning constant: IDs ['constant'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: BIRTH
+============================================================
+1. Generating embeddings...
+Error scanning birth: IDs ['birth'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: DEATH
+============================================================
+1. Generating embeddings...
+Error scanning death: IDs ['death'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: LIFE
+============================================================
+1. Generating embeddings...
+Error scanning life: IDs ['life'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: DREAM
+============================================================
+1. Generating embeddings...
+Error scanning dream: IDs ['dream'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: SLEEP
+============================================================
+1. Generating embeddings...
+Error scanning sleep: IDs ['sleep'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: AWAKE
+============================================================
+1. Generating embeddings...
+Error scanning awake: IDs ['awake'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: PAIN
+============================================================
+1. Generating embeddings...
+Error scanning pain: IDs ['pain'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: PLEASURE
+============================================================
+1. Generating embeddings...
+Error scanning pleasure: IDs ['pleasure'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: HUNGER
+============================================================
+1. Generating embeddings...
+Error scanning hunger: IDs ['hunger'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: THIRST
+============================================================
+1. Generating embeddings...
+Error scanning thirst: IDs ['thirst'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: SAFETY
+============================================================
+1. Generating embeddings...
+Error scanning safety: IDs ['safety'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: DANGER
+============================================================
+1. Generating embeddings...
+Error scanning danger: IDs ['danger'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: SURVIVAL
+============================================================
+1. Generating embeddings...
+Error scanning survival: IDs ['survival'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: ATTENTION
+============================================================
+1. Generating embeddings...
+Error scanning attention: IDs ['attention'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: FAMILY
+============================================================
+1. Generating embeddings...
+Error scanning family: IDs ['family'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: FRIEND
+============================================================
+1. Generating embeddings...
+Error scanning friend: IDs ['friend'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: ENEMY
+============================================================
+1. Generating embeddings...
+Error scanning enemy: IDs ['enemy'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: STRANGER
+============================================================
+1. Generating embeddings...
+Error scanning stranger: IDs ['stranger'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: LEADER
+============================================================
+1. Generating embeddings...
+Error scanning leader: IDs ['leader'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: FOLLOWER
+============================================================
+1. Generating embeddings...
+Error scanning follower: IDs ['follower'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: GROUP
+============================================================
+1. Generating embeddings...
+Error scanning group: IDs ['group'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: SOCIETY
+============================================================
+1. Generating embeddings...
+Error scanning society: IDs ['society'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: CULTURE
+============================================================
+1. Generating embeddings...
+Error scanning culture: IDs ['culture'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: LANGUAGE
+============================================================
+1. Generating embeddings...
+Error scanning language: IDs ['language'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: COMMUNICATION
+============================================================
+1. Generating embeddings...
+Error scanning communication: IDs ['communication'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: RELATIONSHIP
+============================================================
+1. Generating embeddings...
+Error scanning relationship: IDs ['relationship'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: COMPRESSION
+============================================================
+1. Generating embeddings...
+Error scanning compression: IDs ['compression'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: LOSS
+============================================================
+1. Generating embeddings...
+Error scanning loss: IDs ['loss'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: GRADIENT
+============================================================
+1. Generating embeddings...
+Error scanning gradient: IDs ['gradient'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: OPTIMIZATION
+============================================================
+1. Generating embeddings...
+Error scanning optimization: IDs ['optimization'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: PREDICTION
+============================================================
+1. Generating embeddings...
+Error scanning prediction: IDs ['prediction'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: MODEL
+============================================================
+1. Generating embeddings...
+Error scanning model: IDs ['model'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+SCANNING: DATA
+============================================================
+1. Generating embeddings...
+Error scanning data: IDs ['data'] already exist in collection 3fbc632d-69eb-4b16-bf59-be6ee2244e9f
+
+============================================================
+BATCH SCAN COMPLETE
+============================================================
+Total scanned: 1
+
+Top 10 concepts by average delta:
+1. space: Δ=0.5024 (5 high-delta pairs)
